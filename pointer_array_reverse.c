@@ -16,5 +16,5 @@ int main(){
     p_end=&num[x-1];
     while(p_start<=p_end){
         printf("%d\t",*p_start++);
-    }
+    }printf("\n");
 }
