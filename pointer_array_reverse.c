@@ -9,8 +9,7 @@ int main(){
     p_end=&num[x-1];
     while(p_start<p_end){
         int a=*p_start;
-        int b=*p_end;
-        *p_start++=b;
+        *p_start++=*p_end;
         *p_end--=a;
     }
     p_start=num;
